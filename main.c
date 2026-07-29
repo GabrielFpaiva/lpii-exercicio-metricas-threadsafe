@@ -4,6 +4,7 @@
 #include <pthread.h>
 #include <unistd.h>
 #include <stdlib.h>
+#include <string.h>  // faltava no original: main() usa strcmp
 
 #define NUM_WORKERS 6
 #define OPS_PER_WORKER 10000

@@ -13,8 +13,8 @@ typedef struct {
 } MetricaInfo;
 
 typedef struct {
-    int total;
     MetricaInfo *metricas;  // Array alocado por metrics_snapshot
+    int total;
     double uptime_seconds;  // Tempo desde metrics_create
 } Snapshot;
 
